@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("assets/profile.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;  /* makes text readable on top of image */
+}
+header {
+  background: rgba(0,0,0,0.5); /* dark overlay for readability */
+  padding: 20px;
+  text-align: center;
+}
+header a {
+  color: #00e0ff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+main {
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+}
+footer {
+  text-align: center;
+  background: rgba(0,0,0,0.7);
+  padding: 10px;
+  margin-top: 20px;
+}
